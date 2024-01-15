@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white:#fff;
+    --color-dark:black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+
+section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h1,h2,h3,label,a,p ,li{
+  font-family: 'Instrument Serif', serif;
+}
+
+li , a{
+    color:var(--color-white) ;
+    font-size: 14px;
+}
+h1,h2,h3,a,p{
+    color: #fff;
+
+}
+h1{
+
+    font-size: 60px;
+    
+    
+}
+    
+h2{
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive; */
+font-family: 'Instrument Serif', serif;
+}
+
+.nav-item a ,a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.nav-item a:focus{
+
+color: var(--color-white);
+
+}
+.nav-item a:hover{
+
+    color: var(--color-white);
+    
+    }
+
+
+li:hover{
+    transform:scale(1.09);
+    transition: .5s all;
+    cursor: pointer;
+}
+body{
+    background-color: var(--color-dark);
+   
+
+}
+/* li{
+    margin-left: 10px;
+} */
+
+header{
+    padding: 10px 20px;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    /* margin-bottom: 50px; */
+    background-color:var(--color-dark);
+    
+}
+nav{
+    /* margin-top: 80px; */
+    padding: 20px ;
+    /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.05);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+@media screen and (max-width:770px){
+    .list-header li{
+        display: none;
+    }
+}
+.list-navbar li{
+    margin-left: 20px;
+}
+.img-header img {
+    cursor: pointer;
+    width: 50%;
+}
+
+.carousel-item img ,.carousel-item video{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.video-header{
+height: 300px;
+width: 100%;
+object-fit: cover;
+margin-bottom: 100px;
+}
+
+
+.car-product img:hover{
+object-fit: cover;
+transform: scale(1.09);
+transition: all .5s;
+cursor: pointer;
+}
+.car-product img{
+    height: auto;
+}
+.purity{
+    /* background-color:aqua; */
+    /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+box-shadow: 10px 10px 10px 10px rgba(230, 230, 230, 0.1);
+border-radius: 10px;
+/* From https://css.glass */
+/* From https://css.glass */
+
+padding: 15px 15px;
+}
+.purity img{
+    border-radius: 10px;
+    /* box-shadow: 10px 10px 10px rgba(230, 230, 230, 0.1); */
+    
+}
+.purity:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all .1s;
+}
+.purity img:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all .5s;
+}
+
+
+
+.show-car{
+    width: 100%;
+
+}
+.discover img{
+    height: 300px;
+    object-fit: cover;
+}
+.discover{
+    background-color: #fff;
+    padding: 0 10px;
+}
+.discover h3,.discover p{
+    color: black;
+}
+
+.discover img:hover{
+    object-position:bottom;
+    transition: all 1s;
+    cursor: pointer;
+}

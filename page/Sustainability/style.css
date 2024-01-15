@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --color-white:#fff;
+    --color-dark:black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+li , a{
+    color:var(--color-white) ;
+    font-size: 14px;
+}
+h1,h2,h3,a,p{
+    color: #fff;
+
+}
+h3{
+    font-family: 'Instrument Serif', serif;
+}
+
+.nav-item a ,a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.nav-item a:focus{
+
+color: var(--color-white);
+
+}
+.nav-item a:hover{
+
+    color: var(--color-white);
+    
+    }
+
+
+li:hover{
+    transform:scale(1.09);
+    transition: .5s all;
+    cursor: pointer;
+}
+body{
+    background-color: var(--color-dark);
+   
+
+}
+/* li{
+    margin-left: 10px;
+} */
+
+header{
+    padding: 10px 20px;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    /* margin-bottom: 50px; */
+    background-color:var(--color-dark);
+}
+nav{
+    /* margin-top: 80px; */
+    padding:20px;
+    /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.05);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+@media screen and (max-width:770px){
+    .list-header li{
+        display: none;
+    }
+}
+.list-navbar li{
+    margin-left: 20px;
+}
+.img-header img{
+    cursor: pointer;
+    width: 50%;
+}
+
+
+/*  */
+.land img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.land img:hover{
+    transform:scale(1.05);
+    transition: all 3s;
+
+
+
+}
+.responsibility-2 img {
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.responsibility-1 img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.responsibility-2 img:hover{
+    transform: scale(1.01);
+    transition: all 1s;
+    cursor: pointer;
+}
+.responsibility-1 img:hover{
+    transform: scale(1.01);
+    transition: all 1s;
+cursor: pointer;
+}
+nav{
+    width: 100%;
+}

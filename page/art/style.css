@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white:#fff;
+    --color-dark:black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+
+
+
+
+h1,h2,h3,label,a,p ,li{
+  font-family: 'Instrument Serif', serif;
+}
+
+li , a{
+    color:var(--color-white) ;
+    font-size: 14px;
+}
+h1,h2,h3,a,p{
+    color: #fff;
+
+}
+h3{
+    font-family: 'Instrument Serif', serif;
+}
+
+.nav-item a ,a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+.nav-item a:focus{
+
+color: var(--color-white);
+
+}
+.nav-item a:hover{
+
+    color: var(--color-white);
+    
+    }
+
+
+li:hover{
+    transform:scale(1.09);
+    transition: .5s all;
+    cursor: pointer;
+}
+body{
+    background-color: var(--color-dark);
+   
+
+}
+/* li{
+    margin-left: 10px;
+} */
+
+header{
+    padding: 10px 20px;
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    /* margin-bottom: 50px; */
+    background-color:var(--color-dark);
+}
+nav{
+    /* margin-top: 80px; */
+    padding: 20px ;
+    /* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.05);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+}
+@media screen and (max-width:770px){
+    .list-header li{
+        display: none;
+    }
+}
+.list-navbar li{
+    margin-left: 20px;
+}
+.img-header img {
+    cursor: pointer;
+    width: 50%;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+  
+  /* page content */
+  h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    /* font-family: 'Instrument Serif', serif; */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-top: 30vh; 
+  }
+  
+  h2 { font-size: 3rem; }
+  
+  @media (max-width: 750px) {
+      /* #background-video { display: none; } */
+       body {
+     
+      background-size: cover;
+    }
+  }
+
+
+
+
+
+
+  @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+/* body {
+    margin: 0px;
+} */
+
+/* #container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}  */
+
+/* #text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+} */
+
+/*  */
+
+
+
+/*  */
+
+  
+.box-progress{
+    padding: 0px 50px;
+    
+  }
+
+  .feature-progress {
+    background: rgba(0, 0, 0, 0.53);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(133, 125, 125, 0.3);
+  }
+
+  .feature-progress:hover{
+transform: scale(1.05);
+cursor: pointer;
+transition: all 1s;
+  }
+  
+    p{
+      color: #000000;
+    }
+  
+    .progress {
+      width: 100%;
+      -webkit-appearance: none;
+      appearance: none;
+      border: none;
+      border-radius: 10px;
+      height: 8px;
+      background-color: black;
+    }
+  
+    .progress::-webkit-progress-bar {
+      background-color: #f0f0f0;
+    }
+  
+    .progress::-webkit-progress-bar,
+    .progress::-webkit-progress-value {
+      border-radius: 10px;
+    }
+  
+    .progress::-moz-progress-bar {
+      border-radius: 10px;
+    }
+  
+    .progress1::-webkit-progress-value {
+      background:var(--color-primary);
+    }
+  
+    .progress2::-webkit-progress-value {
+      background: var(--color-primary);
+    }
+  
+    .progress3::-webkit-progress-value {
+      background: var(--color-primary);
+    }
+  
+  
+
+
+
+    body{
+        width: 100%;
+    }
+
+
+    option{
+        color: black;
+
+    }
+
+    .Notifications p{
+        color: #f0f0f0;
+        font-size: 20px;
+    }
+    .Notifications{
+        margin-top: 80px;
+    }
+    .art-video{
+        border-radius: 10px;
+        object-fit: cover;
+        height: 250px;
+        width: 90%;
+    }
